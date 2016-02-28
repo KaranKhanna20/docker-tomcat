@@ -17,4 +17,8 @@ The following environment variables can be passed to the docker image:
 `CATALINA_OPTS` (default: "-Xms128m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=256m")
 
 
+DOCKER BUILD COMMAND : docker build -t tomcat .
+
+DOCKER RUN COMMAND : docker run -p 8080:8080 -d tomcat
+
 Go to Web browser to see the sample.war content: http://localhost:8080/
